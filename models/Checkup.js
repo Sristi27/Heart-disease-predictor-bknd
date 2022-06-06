@@ -11,10 +11,10 @@ const CheckupSchema = new mongoose.Schema({
             type:Number
         },
         sex: {
-            type:String
+            type:Number
         },
         chestPainType: {
-            type:String
+            type:Number
         },
         pressure: {
             type:Number
@@ -23,19 +23,19 @@ const CheckupSchema = new mongoose.Schema({
             type:Number
         },
         sugar: {
-            type:String
+            type:Number
         },
         ecg: {
-            type:String
+            type:Number
         },
         heartRate: {
             type:Number
         },
         angina: {
-            type:String
+            type:Number
         },
         thal:{
-            type:String
+            type:Number
         },
         result:{
             type:String

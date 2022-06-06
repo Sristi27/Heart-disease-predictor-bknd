@@ -6,13 +6,10 @@ const bodyparser = require('body-parser');
 const path = require('path'); 
 dotenv.config();
 
-mongoose.connect(
-  process.env.MONGODB_URI ||
-    "mongodb+srv://sristi27:270520@cluster0.18ex9.mongodb.net/<patients>?retryWrites=true&w=majority",
+mongoose.connect( process.env.MONGODB_URI,
   {
     useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useFindAndModify: false,
+    useUnifiedTopology: true,
   },
   (err) => {
     if (!err) {

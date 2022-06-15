@@ -17,7 +17,7 @@ Heart Seva tries to predict based on a huge Kaggle Dataset and yields accurate r
 This repository contains the Node backend, containing APIs to login/logout user and save user checkup details in MongoDB.
 
 
-## Frontend - <a href="https://github.com/Sristi27/Heart-disease-pred-fe-v2">Link</a>
+## Frontend Repository - <a href="https://github.com/Sristi27/Heart-disease-pred-fe-v2">Link</a>
 
 ## Python Model and API - <a href="https://github.com/Sristi27/Heart-Disease-Predictor">Link</a>
 
